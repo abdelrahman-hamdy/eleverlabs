@@ -4,6 +4,7 @@ node_modules/
 # Build output
 dist/
 build/
+# Note: docs/ is NOT ignored - it contains the production build for GitHub Pages
 
 # Environment files
 .env

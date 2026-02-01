@@ -3,13 +3,13 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [tailwindcss()],
-  base: '/eleverlabs/',
+  base: '/',
   server: {
     port: 3000,
     open: true
   },
   build: {
-    outDir: 'dist',
+    outDir: 'docs',
     assetsDir: 'assets'
   }
 })
